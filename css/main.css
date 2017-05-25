@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Oleo Script';
+  src: local('Oleo Script');
+  font-style: normal;
+  font-weight: 400;
+  src: url('http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2') format('woff2');
+}
+
+@@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One');
+  src: url('http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+}
+
+.logo {
+  background-image: url('../img/logo.png');
+  color: white;
+}
+
+.site-header {
+  background-image: url('../img/header-background.jpg');
+  height: 520px;
+  background-size: cover;
+}
+
+body {
+  width: 1280px;
+  margin: -60px auto 0 auto;
+}
+
+.image-cards {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.site-imgs {
+  margin: 0 130px 0 130px;
+}
+
+#left-img {
+  background-image: url('../img/left-img.jpg');
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+
+#middle-img {
+  background-image: url('../img/middle-img.jpg');
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+
+#right-img {
+  background-image: url('../img/right-img.jpg');
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+
+.main-heading {
+  color: white;
+  text-align: center;
+  font-family: 'Poiret One';
+  padding-top: 120px;
+  font-size: 70px
+}
+
+.subheader-msg {
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Oleo Script';
+}
+
+.divider {
+  width: 620px;
+  height: 2px;
+}
+
+.callout-msg {
+  height: 200px;
+  background-color: rgb(67, 153, 106);
+}
+
+.primary-text {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 50px 250px;
+}
+
+.contact-wrapper {
+  font-size: 30px;
+  text-align: center;
+  padding: 0 250px 0 250px;
+}
