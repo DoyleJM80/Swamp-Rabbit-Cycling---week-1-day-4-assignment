@@ -24,7 +24,7 @@
   width: 250px;
   position: absolute;
   z-index: 2;
-  top: 180px;
+  top: 112px;
   left: 960px;
   -webkit-filter: invert(100%);
   /*https://teamtreehouse.com/community/is-it-possible-to-make-a-black-icon-white-using-css*/
@@ -34,11 +34,13 @@
   background-image: url('../img/header-background.jpg');
   height: 520px;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 body {
   width: 1280px;
-  margin: 0 auto;
+  margin: -60px auto 0 auto;
 }
 
 .image-cards {
@@ -92,7 +94,7 @@ li {
 .subheader-msg {
   color: white;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 25px;
   font-family: 'Oleo Script';
   text-shadow: 2px 2px rgba(0, 0, 0, .8);
 
@@ -108,16 +110,16 @@ li {
 }
 
 .primary-text {
-  font-size: 30px;
+  font-size: 32px;
   color: white;
   text-align: center;
-  padding: 50px 250px;
+  padding: 45px 250px 55px 250px;
   font-family: 'Poiret One';
   text-shadow: 2px 2px rgba(0, 0, 0, .8);
 }
 
 .contact-wrapper {
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   font-family: 'Poiret One';
   color: rgb(121, 121, 121);
