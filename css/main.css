@@ -5,18 +5,28 @@
 @font-face{
   font-family: 'Oleo Script';
   src: local('Oleo Script'), url('https://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
 }
 
-@font-face {
-  font-family: ‘Poiret One’;
-  src: local(‘Poiret One’),  url(‘https://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2') format(‘woff2’);
+@font-face{
+  font-family: 'Poiret One';
+  src: local('Poiret One'), url('https://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+  font-style: normal;
   font-weight: 400;
 }
 
 .logo {
-  background-image: url('../img/logo.png');
-  color: white;
+  background-image: url('../img/logo.png');  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  z-index: 2;
+  top: 180px;
+  left: 960px;
+
 }
 
 .site-header {
@@ -27,7 +37,7 @@
 
 body {
   width: 1280px;
-  margin: -60px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .image-cards {
@@ -74,7 +84,8 @@ li {
   text-align: center;
   font-family: 'Poiret One';
   padding-top: 120px;
-  font-size: 70px
+  font-size: 70px;
+  text-shadow: 2px 2px rgba(0, 0, 0, .8);
 }
 
 .subheader-msg {
@@ -82,11 +93,12 @@ li {
   text-align: center;
   padding-top: 40px;
   font-family: 'Oleo Script';
+  text-shadow: 2px 2px rgba(0, 0, 0, .8);
+
 }
 
 .divider {
   width: 620px;
-  height: 2px;
 }
 
 .callout-msg {
@@ -99,16 +111,42 @@ li {
   color: white;
   text-align: center;
   padding: 50px 250px;
+  font-family: 'Poiret One';
+  text-shadow: 2px 2px rgba(0, 0, 0, .8);
 }
 
 .contact-wrapper {
   font-size: 30px;
   text-align: center;
-  padding: 0 250px 0 250px;
+  font-family: 'Poiret One';
+  color: rgb(121, 121, 121);
+  font-size: 23px;
+  width: 760px;
+  margin: 0 auto;
+}
+
+.contact-msg {
+  display: block;
+  width: 759px;
 }
 
 footer {
   height: 80px;
   background-color: rgb(51, 51, 51);
   color: white;
+}
+
+.contact-email {
+  padding: 15px 0;
+}
+
+.footer-wrapper {
+  text-align: center;
+  padding-top: 13px;
+  font-family: sans-serif;
+}
+
+.contact-email a {
+  color: rgb(90, 90, 90);
+  font-size: 30px;
 }
