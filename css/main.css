@@ -26,7 +26,8 @@
   z-index: 2;
   top: 180px;
   left: 960px;
-
+  -webkit-filter: invert(100%);
+  /*https://teamtreehouse.com/community/is-it-possible-to-make-a-black-icon-white-using-css*/
 }
 
 .site-header {
@@ -37,7 +38,7 @@
 
 body {
   width: 1280px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
 
 .image-cards {
